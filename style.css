@@ -12,7 +12,7 @@ h2 {
     padding: 0;
 }
 
-html{
+html {
     background-color: rgb(202, 202, 202);
 }
 
@@ -20,11 +20,8 @@ html{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: start;
-    /* align-items: auto;
-    align-content: start */
-  }
- 
+    justify-content: start;    
+} 
 
 .item {    
     padding: 0 2px 2px 0;
@@ -33,43 +30,42 @@ html{
     width: 50px;
     height: 50px;
     border-right: 0;
-    border-bottom: 0;
-     
+    border-bottom: 0;     
 }
-h1{
+
+h1 {
     font-family: 'Press Start 2P', cursive;
     color: blue;
     font-size: 24px;
     text-shadow: 2px 2px 3px rgb(38, 38, 38);
 }
 
-header{
+header {
     text-align: center;
     margin: 20px;
 }
 
-section{
+section {
     margin: auto;
     width: 432px;    
     background-color: rgb(196, 196, 196);
     border: 15px solid rgb(163, 163, 163);
     border-style: outset;
-
 }
 
-.last{
+.last {
     padding-right: 0;
     border-right:  2px solid rgb(64, 64, 64);
     border-style: dashed;
 }
 
-.bottom{
+.bottom {
     padding-bottom: 0;
     border-bottom:  2px solid rgb(64, 64, 64);
     border-style: dashed;
 }
 
-.one{
+.one {
     font-family: 'Press Start 2P', cursive;    
     font-size: 25px;
     color: blue;    
@@ -77,7 +73,8 @@ section{
     justify-content: center;
     margin-top: 15px;   
 }
-.two{
+
+.two {
     font-family: 'Press Start 2P', cursive;    
     font-size: 25px;
     color: green;    
@@ -86,7 +83,7 @@ section{
     margin-top: 15px;      
 }
 
-.three{
+.three {
     font-family: 'Press Start 2P', cursive;    
     font-size: 25px;
     color: red;    
@@ -94,27 +91,64 @@ section{
     justify-content: center;
     margin-top: 15px; 
 }
-.box{
+
+.bomb {
+    width: 35px; 
+}
+
+.bombspan {
+    display: flex;
+    justify-content: center;
+    margin-top: 9px;
+}
+
+.onehide {
+    font-family: 'Press Start 2P', cursive;    
+    font-size: 25px;
+    color: blue;    
+    justify-content: center;
+    margin: 12px 0 0 10px;   
+}
+
+span.hide {
+    margin: 5px 0 0 5px;
+}
+
+.twohide {
+    font-family: 'Press Start 2P', cursive;    
+    font-size: 25px;
+    color: green;     
+    justify-content: center;
+    margin: 12px 0 0px 12px;      
+}
+
+.threehide {
+    font-family: 'Press Start 2P', cursive;    
+    font-size: 25px;
+    color: red;
+    justify-content: center;
+    margin: 12px 0 0 10px;    
+}
+
+div.box {
     display: flex;
     border: 3px solid rgb(219, 219, 219);
     border-style: outset;
     background-color: darkgrey;
     height: 47px;
 }
-.bomb{
-    width: 35px; 
-}
-
-.bombspan{
-    display: flex;
-    justify-content: center;
-    margin-top: 9px;
-}
-/*
-div.box {
+  
+span {
     display: none;
-  }
-
-div:hover span {
+}
+  
+div.box:hover span {
     display: block;
-} */
+}
+
+footer {
+    text-align: center;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 13px;
+    margin-top: 20px;
+}
