@@ -1,0 +1,120 @@
+html,
+body,
+div,
+head,
+section,
+article,
+main,
+footer,
+h1,
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: rgb(202, 202, 202);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: start;
+    /* align-items: auto;
+    align-content: start */
+  }
+ 
+
+.item {    
+    padding: 0 2px 2px 0;
+    border: 2px solid rgb(64, 64, 64);
+    border-style: dashed;
+    width: 50px;
+    height: 50px;
+    border-right: 0;
+    border-bottom: 0;
+     
+}
+h1{
+    font-family: 'Press Start 2P', cursive;
+    color: blue;
+    font-size: 24px;
+    text-shadow: 2px 2px 3px rgb(38, 38, 38);
+}
+
+header{
+    text-align: center;
+    margin: 20px;
+}
+
+section{
+    margin: auto;
+    width: 432px;    
+    background-color: rgb(196, 196, 196);
+    border: 15px solid rgb(163, 163, 163);
+    border-style: outset;
+
+}
+
+.last{
+    padding-right: 0;
+    border-right:  2px solid rgb(64, 64, 64);
+    border-style: dashed;
+}
+
+.bottom{
+    padding-bottom: 0;
+    border-bottom:  2px solid rgb(64, 64, 64);
+    border-style: dashed;
+}
+
+.one{
+    font-family: 'Press Start 2P', cursive;    
+    font-size: 25px;
+    color: blue;    
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;   
+}
+.two{
+    font-family: 'Press Start 2P', cursive;    
+    font-size: 25px;
+    color: green;    
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;      
+}
+
+.three{
+    font-family: 'Press Start 2P', cursive;    
+    font-size: 25px;
+    color: red;    
+    display: flex;
+    justify-content: center;
+    margin-top: 15px; 
+}
+.box{
+    display: flex;
+    border: 3px solid rgb(219, 219, 219);
+    border-style: outset;
+    background-color: darkgrey;
+    height: 47px;
+}
+.bomb{
+    width: 35px; 
+}
+
+.bombspan{
+    display: flex;
+    justify-content: center;
+    margin-top: 9px;
+}
+/*
+div.box {
+    display: none;
+  }
+
+div:hover span {
+    display: block;
+} */
