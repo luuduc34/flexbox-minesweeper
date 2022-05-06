@@ -4,4 +4,4 @@
 
 > Exercice : reproduce the minesweeper with flexbox use.
 
-BeCode - Exercice Flexbox-minesweeper - Duc Luu
+BeCode - Exercice "Flexbox-minesweeper" - Duc Luu
